@@ -1,0 +1,35 @@
+No      Input                        Processs                            Output
+1       name                       dueAmount = amount * taxcode         dueAmount
+        purchase_amount
+		tax code
+
+		
+Pusedocode
+
+Declare String name
+Declare double purchase_amount
+Declare double due_amount
+Declare double state_tax
+Declare double speical_tax
+Declare double federal_and_state_tax
+Declare double state_sales_tax_ only = 0.3
+
+	-Prompt the user for thier name
+	-Prompt the user the purchase_amount
+	-Prompt the user the taxcode
+
+Calculate the the amount do 
+	if 
+		taxcode is state tax only 
+		due amount = purchase_amount * 0. 03
+	else if
+		taxcode == federal_and_state_tax 
+		due_amount = purchase_amount * 0.05
+	else if 
+		taxcode  == special_tax 
+		due_amount = puchase_amount * 0.07
+	else
+		due_amount = 0;
+
+Display the name, puchase_amount, sales_tax and due_amount 
+	
